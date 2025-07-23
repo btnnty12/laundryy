@@ -333,52 +333,6 @@ src/
 └── config/                # Configuration files
 ```
 
-### Testing
 
-```bash
-# Run tests
-docker exec laundry_php php artisan test
-
-# Run with coverage
-docker exec laundry_php php artisan test --coverage
-```
-
-### Code Quality
-
-```bash
-# Fix code style
-docker exec laundry_php ./vendor/bin/pint
-
-# Static analysis
-docker exec laundry_php ./vendor/bin/phpstan analyse
-```
-
-## 📈 Future Enhancements
-
-### Planned Features
-- [ ] **SMS Notifications** - Order status updates
-- [ ] **Email Notifications** - Automated communications
-- [ ] **API Documentation** - Swagger/OpenAPI
-- [ ] **Mobile App** - React Native/Flutter
-- [ ] **Advanced Reporting** - Charts dan analytics
-- [ ] **Inventory Management** - Stock tracking
-- [ ] **Delivery Tracking** - GPS integration
-- [ ] **Multi-language Support** - Internationalization
-- [ ] **Payment Gateway** - Online payment integration
-- [ ] **Barcode System** - QR code tracking
-
-### Technical Improvements
-- [ ] **Redis Caching** - Performance optimization
-- [ ] **Elasticsearch** - Advanced search
-- [ ] **WebSocket** - Real-time updates
-- [ ] **CI/CD Pipeline** - Automated deployment
-- [ ] **Load Balancing** - Scalability
-- [ ] **Monitoring** - Application performance monitoring
-
-## 📞 Support
-
-Untuk pertanyaan atau dukungan teknis, silakan hubungi tim development atau buat issue di repository ini.
-
----
 
 **Laundry Management System** - Solusi lengkap untuk manajemen bisnis laundry modern.
