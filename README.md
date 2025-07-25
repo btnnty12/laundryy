@@ -336,3 +336,4 @@ src/
 
 
 **Laundry Management System** - Solusi lengkap untuk manajemen bisnis laundry modern.
+link web : https://laundry-production-697e.up.railway.app
